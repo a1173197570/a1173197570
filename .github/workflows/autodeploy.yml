@@ -41,7 +41,7 @@ jobs:
 
       - name: Replace secrets
         run: |
-          sed -i 's/OAUTH_TOKEN/${{ secrets.ACCESS_TOKEN }}/' ./_config.butterfly.yml
+          sed -i 's/OAUTH_TOKEN/${{ secrets.GITHUB_TOKEN }}/' ./_config.butterfly.yml
 
       - name: 配置环境
         env:
