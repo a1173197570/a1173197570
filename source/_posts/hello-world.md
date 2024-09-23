@@ -36,3 +36,4 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+![商店.png](https://s2.loli.net/2024/09/23/YjHaQBgdCihV6yN.png)
