@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 在野的博客
-subtitle: ''
-description: ''
-keywords:
+title: 寻梦人博客
+subtitle: 梦境Journal
+description: '你入我梦中, 轻风携意浓。'
+keywords: 寻梦人, 在野博客
 author: 在野.
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -19,6 +19,11 @@ permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+search:
+  path: search.xml
+  field: post
+  content: true
 
 # Directory
 source_dir: source
